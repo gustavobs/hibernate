@@ -16,8 +16,6 @@
 		<hibernate.version>5.1.0.Final</hibernate.version>
 		<!-- H2 RDBMS -->
 		<h2.version>1.3.171</h2.version>
-		<!-- Bitronix - JTA transaction manager as a JDBC connection pool -->
-		<btm.version>2.1.3</btm.version>
 	</properties>
 
 	<dependencies>
@@ -36,11 +34,6 @@
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
 			<version>${h2.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.codehaus.btm</groupId>
-			<artifactId>btm</artifactId>
-			<version>${btm.version}</version>
-		</dependency>
+		</dependency>	
 	</dependencies>
 </project>
